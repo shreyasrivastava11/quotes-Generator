@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    background-color: #bbc6fa;
+}
+
+.container{
+    background-color: #fff;
+    max-width: 550px;
+    margin: 150px 30px auto 370px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+h1{
+    padding-top: 40px;
+    padding-bottom: 35px;
+    font-size: 25px;
+}
+
+.load1{
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right:30px;
+}
+
+.load2{
+    font-size: 12px;
+    padding-bottom: 20px;
+    margin-left: 25rem;
+    padding-right: 30px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-bottom: 30px;
+    outline: none;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.new{
+    padding: 5px 30px 5px 30px;
+    margin-right: 15px;
+    color: white;
+    background-color: rgb(0, 94, 255);
+}
+
+.tweet{
+    padding: 5px 30px 5px 30px;
+    border: 1px solid grey;
+    color: rgb(83, 82, 82);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.tweet:hover{
+    background-color: rgba(245, 245, 249, 0.358);
+}
+
+.img{
+    margin-right: 5px;
+}
